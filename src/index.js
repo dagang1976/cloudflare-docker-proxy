@@ -1,6 +1,5 @@
 import DOCS from './tips.html'
- 
-// return tips.html
+ // return tips.html
 if (url.pathname === "/") {
   return new Response(DOCS, {
     status: 200,
